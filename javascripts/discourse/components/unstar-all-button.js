@@ -1,5 +1,6 @@
 import Component from "@glimmer/component";
 import DButton from "discourse/components/d-button";
+import { tracked } from '@glimmer/tracking';
 import { action } from "@ember/object";
 
 export default class UnstarAllButton extends Component {
